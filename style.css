@@ -5,6 +5,7 @@
     --branco-ativo: #3a375e;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
+    --branco: #ffffff;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -40,4 +41,9 @@ body{
     padding: 1em;
     font-size: 18px;
     align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--branco-ativo);
+    border-left: 2px solid var(--branco-ativo);
+    border-right: 2px solid var(--branco-ativo);
+    border-top: none;
 }
