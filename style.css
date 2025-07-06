@@ -2,7 +2,7 @@
 :root{
     --cor-de-fundo: #1e1e1e;
     --verde: #6fff57;
-    --branco-ativo: #3a375e;
+    --botao-ativo: #3a375e;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
     --branco: #ffffff;
@@ -55,7 +55,7 @@ body{
     display: block;
 }
 
-.botao .ativo{
+.botao.ativo{
     background-color: var(--branco-ativo);
     border-bottom: 4px solid var(--verde);
 }
